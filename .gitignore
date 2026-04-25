@@ -1,28 +1,40 @@
 ```
-# Build artifacts
-adaptive_mixnet/bin/
-adaptive_mixnet/build/
-adaptive_mixnet/build_cmake/
-
-# Compiled object files
+# Compiled and build artifacts
 *.o
 *.obj
-*.so
 *.a
+*.so
 *.dll
 *.exe
-
-# CMake files
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-
-# Compiler output
-*.bin
 *.out
-*.d
 
-# Logs
-CMakeFiles/*/CMakeOutput.log
+# Build directories
+build/
+dist/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
